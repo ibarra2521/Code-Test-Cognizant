@@ -24,7 +24,7 @@ class MainTableViewController: UIViewController, WebserviceHelperDelegate {
         self.connection.delegate = self;
         self.connection.loadDataFromWebService(1)
 
-        navigationItem.leftBarButtonItem = editButtonItem()
+        navigationItem.rightBarButtonItem = editButtonItem()
     }
     
     override func viewWillAppear(animated: Bool) {
