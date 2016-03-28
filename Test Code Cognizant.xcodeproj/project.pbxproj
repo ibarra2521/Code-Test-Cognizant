@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		41C13CB41CA96A6E0047AF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CB31CA96A6E0047AF96 /* AppDelegate.swift */; };
-		41C13CB61CA96A6E0047AF96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CB51CA96A6E0047AF96 /* ViewController.swift */; };
 		41C13CB91CA96A6E0047AF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C13CB71CA96A6E0047AF96 /* Main.storyboard */; };
 		41C13CBB1CA96A6E0047AF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C13CBA1CA96A6E0047AF96 /* Assets.xcassets */; };
 		41C13CBE1CA96A6E0047AF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C13CBC1CA96A6E0047AF96 /* LaunchScreen.storyboard */; };
+		41C13CC61CA96C740047AF96 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CC51CA96C740047AF96 /* MainTableViewController.swift */; };
+		41C13CCB1CA96D1F0047AF96 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CCA1CA96D1F0047AF96 /* CustomCell.swift */; };
+		41C13CD41CA9737A0047AF96 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CD31CA9737A0047AF96 /* DetailTableViewController.swift */; };
+		41C13CDE1CA996380047AF96 /* ParsingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CDC1CA996380047AF96 /* ParsingHelper.swift */; };
+		41C13CDF1CA996380047AF96 /* WebserviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CDD1CA996380047AF96 /* WebserviceHelper.swift */; };
+		41C13CE41CA9966E0047AF96 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CE01CA9966E0047AF96 /* Episode.swift */; };
+		41C13CE51CA9966E0047AF96 /* Episode+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CE11CA9966E0047AF96 /* Episode+.swift */; };
+		41C13CE61CA9966E0047AF96 /* EpisodeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CE21CA9966E0047AF96 /* EpisodeDetail.swift */; };
+		41C13CE71CA9966E0047AF96 /* EpisodeDetail+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13CE31CA9966E0047AF96 /* EpisodeDetail+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41C13CB01CA96A6E0047AF96 /* Test Code Cognizant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Code Cognizant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C13CB31CA96A6E0047AF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41C13CB51CA96A6E0047AF96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41C13CB81CA96A6E0047AF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41C13CBA1CA96A6E0047AF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C13CBD1CA96A6E0047AF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C13CBF1CA96A6E0047AF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C13CC51CA96C740047AF96 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		41C13CCA1CA96D1F0047AF96 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		41C13CD31CA9737A0047AF96 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		41C13CDC1CA996380047AF96 /* ParsingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingHelper.swift; sourceTree = "<group>"; };
+		41C13CDD1CA996380047AF96 /* WebserviceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceHelper.swift; sourceTree = "<group>"; };
+		41C13CE01CA9966E0047AF96 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		41C13CE11CA9966E0047AF96 /* Episode+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Episode+.swift"; sourceTree = "<group>"; };
+		41C13CE21CA9966E0047AF96 /* EpisodeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeDetail.swift; sourceTree = "<group>"; };
+		41C13CE31CA9966E0047AF96 /* EpisodeDetail+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EpisodeDetail+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,62 @@
 		41C13CB21CA96A6E0047AF96 /* Test Code Cognizant */ = {
 			isa = PBXGroup;
 			children = (
+				41C13CC91CA96C870047AF96 /* View */,
+				41C13CC81CA96C810047AF96 /* Controller */,
+				41C13CC71CA96C7B0047AF96 /* Model */,
 				41C13CB31CA96A6E0047AF96 /* AppDelegate.swift */,
-				41C13CB51CA96A6E0047AF96 /* ViewController.swift */,
-				41C13CB71CA96A6E0047AF96 /* Main.storyboard */,
 				41C13CBA1CA96A6E0047AF96 /* Assets.xcassets */,
 				41C13CBC1CA96A6E0047AF96 /* LaunchScreen.storyboard */,
 				41C13CBF1CA96A6E0047AF96 /* Info.plist */,
 			);
 			path = "Test Code Cognizant";
+			sourceTree = "<group>";
+		};
+		41C13CC71CA96C7B0047AF96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41C13CE01CA9966E0047AF96 /* Episode.swift */,
+				41C13CE11CA9966E0047AF96 /* Episode+.swift */,
+				41C13CE21CA9966E0047AF96 /* EpisodeDetail.swift */,
+				41C13CE31CA9966E0047AF96 /* EpisodeDetail+.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		41C13CC81CA96C810047AF96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41C13CCC1CA96D440047AF96 /* Helper */,
+				41C13CC51CA96C740047AF96 /* MainTableViewController.swift */,
+				41C13CD31CA9737A0047AF96 /* DetailTableViewController.swift */,
+				41C13CD91CA9806E0047AF96 /* Custom */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		41C13CC91CA96C870047AF96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41C13CB71CA96A6E0047AF96 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		41C13CCC1CA96D440047AF96 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				41C13CDC1CA996380047AF96 /* ParsingHelper.swift */,
+				41C13CDD1CA996380047AF96 /* WebserviceHelper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		41C13CD91CA9806E0047AF96 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				41C13CCA1CA96D1F0047AF96 /* CustomCell.swift */,
+			);
+			name = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C13CB61CA96A6E0047AF96 /* ViewController.swift in Sources */,
+				41C13CDE1CA996380047AF96 /* ParsingHelper.swift in Sources */,
+				41C13CD41CA9737A0047AF96 /* DetailTableViewController.swift in Sources */,
+				41C13CDF1CA996380047AF96 /* WebserviceHelper.swift in Sources */,
+				41C13CC61CA96C740047AF96 /* MainTableViewController.swift in Sources */,
+				41C13CE71CA9966E0047AF96 /* EpisodeDetail+.swift in Sources */,
+				41C13CCB1CA96D1F0047AF96 /* CustomCell.swift in Sources */,
+				41C13CE61CA9966E0047AF96 /* EpisodeDetail.swift in Sources */,
+				41C13CE51CA9966E0047AF96 /* Episode+.swift in Sources */,
+				41C13CE41CA9966E0047AF96 /* Episode.swift in Sources */,
 				41C13CB41CA96A6E0047AF96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
